@@ -1,4 +1,4 @@
-# Copyright 2015-2016 The Android Open Source Project
+# Copyright 2015-2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,12 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/nvidia/dragon/dragon-vendor.mk)
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    GCS \
+    HotwordEnrollment
 
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES := \
-    vendor/nvidia/dragon/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/nvidia/dragon/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/nvidia/dragon/proprietary/acr_ucode.bin:root/vendor/firmware/nouveau/acr_ucode.bin:nvidia \
     vendor/nvidia/dragon/proprietary/fecs.bin:root/vendor/firmware/nouveau/fecs.bin:nvidia \
     vendor/nvidia/dragon/proprietary/fecs_sig.bin:root/vendor/firmware/nouveau/fecs_sig.bin:nvidia \
