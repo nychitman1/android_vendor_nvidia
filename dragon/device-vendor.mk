@@ -14,6 +14,7 @@
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    DragonKeyboardFirmwareUpdater \
     GCS \
     HotwordEnrollment
 

@@ -1,4 +1,4 @@
-# Copyright (C) 2015-2016 The Dirty Unicorns Project
+# Copyright (C) 2015-2017 The Dirty Unicorns Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,16 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),dragon)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := DragonKeyboardFirmwareUpdater
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := DragonKeyboardFirmwareUpdater/DragonKeyboardFirmwareUpdater.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GCS
