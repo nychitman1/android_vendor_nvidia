@@ -16,7 +16,8 @@
 PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater \
     GCS \
-    HotwordEnrollment
+    HotwordEnrollment \
+    Turbo
 
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES := \
