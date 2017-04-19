@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES := \
+    vendor/nvidia/dragon/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/nvidia/dragon/proprietary/acr_ucode.bin:root/vendor/firmware/nouveau/acr_ucode.bin:nvidia \
     vendor/nvidia/dragon/proprietary/fecs.bin:root/vendor/firmware/nouveau/fecs.bin:nvidia \
     vendor/nvidia/dragon/proprietary/fecs_sig.bin:root/vendor/firmware/nouveau/fecs_sig.bin:nvidia \
@@ -39,5 +40,5 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon/proprietary/nvdec_bl_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_bl_prod.bin:nvidia \
     vendor/nvidia/dragon/proprietary/nvdec_ns.bin:root/vendor/firmware/nvidia/tegra210/nvdec_ns.bin:nvidia \
     vendor/nvidia/dragon/proprietary/nvdec_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_prod.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/xusb.bin:root/vendor/firmware/nvidia/tegra210/xusb.bin:nvidia \
+    vendor/nvidia/dragon/proprietary/xusb.bin:root/vendor/firmware/nvidia/tegra210/xusb.bin:nvidia
 
