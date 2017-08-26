@@ -12,11 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    UserInfoWidget
+
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater \
     GCS \
-    HotwordEnrollment
+    HotwordEnrollmentRT5677
 
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES := \
@@ -41,4 +45,3 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon/proprietary/nvdec_ns.bin:root/vendor/firmware/nvidia/tegra210/nvdec_ns.bin:nvidia \
     vendor/nvidia/dragon/proprietary/nvdec_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_prod.bin:nvidia \
     vendor/nvidia/dragon/proprietary/xusb.bin:root/vendor/firmware/nvidia/tegra210/xusb.bin:nvidia
-
