@@ -24,6 +24,8 @@ PRODUCT_PACKAGES += \
 
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES := \
+    vendor/nvidia/dragon/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
+    vendor/nvidia/dragon/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
     vendor/nvidia/dragon/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/nvidia/dragon/proprietary/acr_ucode.bin:root/vendor/firmware/nouveau/acr_ucode.bin:nvidia \
     vendor/nvidia/dragon/proprietary/fecs.bin:root/vendor/firmware/nouveau/fecs.bin:nvidia \
