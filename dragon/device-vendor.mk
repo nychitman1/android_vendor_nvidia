@@ -27,23 +27,5 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
     vendor/nvidia/dragon/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
     vendor/nvidia/dragon/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
-    vendor/nvidia/dragon/proprietary/acr_ucode.bin:root/vendor/firmware/nouveau/acr_ucode.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/fecs.bin:root/vendor/firmware/nouveau/fecs.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/fecs_sig.bin:root/vendor/firmware/nouveau/fecs_sig.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/gpmu_ucode_desc.bin:root/vendor/firmware/nouveau/gpmu_ucode_desc.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/gpmu_ucode_image.bin:root/vendor/firmware/nouveau/gpmu_ucode_image.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_bundle:root/vendor/firmware/nouveau/nv12b_bundle:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_fuc409c:root/vendor/firmware/nouveau/nv12b_fuc409c:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_fuc409d:root/vendor/firmware/nouveau/nv12b_fuc409d:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_fuc41ac:root/vendor/firmware/nouveau/nv12b_fuc41ac:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_fuc41ad:root/vendor/firmware/nouveau/nv12b_fuc41ad:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_method:root/vendor/firmware/nouveau/nv12b_method:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_sw_ctx:root/vendor/firmware/nouveau/nv12b_sw_ctx:nvidia \
-    vendor/nvidia/dragon/proprietary/nv12b_sw_nonctx:root/vendor/firmware/nouveau/nv12b_sw_nonctx:nvidia \
-    vendor/nvidia/dragon/proprietary/pmu_bl.bin:root/vendor/firmware/nouveau/pmu_bl.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/pmu_sig.bin:root/vendor/firmware/nouveau/pmu_sig.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/bpmp.bin:root/vendor/firmware/nvidia/tegra210/bpmp.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/nvdec_bl_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_bl_prod.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/nvdec_ns.bin:root/vendor/firmware/nvidia/tegra210/nvdec_ns.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/nvdec_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_prod.bin:nvidia \
-    vendor/nvidia/dragon/proprietary/xusb.bin:root/vendor/firmware/nvidia/tegra210/xusb.bin:nvidia
+    vendor/nvidia/dragon/proprietary/lib/libkeymaster_staging.so:system/lib/libkeymaster_staging.so \
+    vendor/nvidia/dragon/proprietary/lib64/libkeymaster_staging.so:system/lib64/libkeymaster_staging.so
