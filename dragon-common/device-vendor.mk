@@ -14,6 +14,7 @@
 
 # Proprietary Nvidia blob(s) necessary for Dragon-common hardware
 PRODUCT_COPY_FILES := \
+    vendor/nvidia/dragon-common/proprietary/vendor/bin/tlk_daemon:vendor/bin/tlk_daemon \
     vendor/nvidia/dragon-common/proprietary/vendor/etc/model_frontal.xml:vendor/etc/model_frontal.xml \
     vendor/nvidia/dragon-common/proprietary/vendor/etc/version_info.txt:vendor/etc/version_info.txt \
     vendor/nvidia/dragon-common/proprietary/vendor/etc/selinux/nonplat_mac_permissions.xml:vendor/etc/selinux/nonplat_mac_permissions.xml \
@@ -68,6 +69,8 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon-common/proprietary/vendor/lib/libdrm.so:vendor/lib/libdrm.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib/libfcamdng.so:vendor/lib/libfcamdng.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib/libglcore.so:vendor/lib/libglcore.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib/libmediacodecservice.so:vendor/lib/libmediacodecservice.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib/libminijail_vendor.so:vendor/lib/libminijail_vendor.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib/libnppc.so:vendor/lib/libnppc.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib/libnppi.so:vendor/lib/libnppi.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib/libnvaudiofx.so:vendor/lib/libnvaudiofx.so \
@@ -138,6 +141,7 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libdrm.so:vendor/lib64/libdrm.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libglcore.so:vendor/lib64/libglcore.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib64/libminijail_vendor.so:vendor/lib64/libminijail_vendor.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libnvavp.so:vendor/lib64/libnvavp.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libnvblit.so:vendor/lib64/libnvblit.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libnvcms.so:vendor/lib64/libnvcms.so \
@@ -154,6 +158,10 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libnvwinsys.so:vendor/lib64/libnvwinsys.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libnvwsi.so:vendor/lib64/libnvwsi.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libphs.so:vendor/lib64/libphs.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib64/libselinux_vendor.so:vendor/lib64/libselinux_vendor.so \
     vendor/nvidia/dragon-common/proprietary/vendor/lib64/libstagefrighthw.so:vendor/lib64/libstagefrighthw.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib64/libtlk_secure_hdcp_up.so:vendor/lib64/libtlk_secure_hdcp_up.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib64/libtsec_wrapper.so:vendor/lib64/libtsec_wrapper.so \
+    vendor/nvidia/dragon-common/proprietary/vendor/lib64/libtsechdcp.so:vendor/lib64/libtsechdcp.so \
     vendor/nvidia/dragon-common/proprietary/vendor/media/LMspeed_508.emd:vendor/media/LMspeed_508.emd \
     vendor/nvidia/dragon-common/proprietary/vendor/media/PFFprec_600.emd:vendor/media/PFFprec_600.emd
