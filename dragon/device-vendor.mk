@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater \
-    GCS \
     HotwordEnrollmentOKGoogleRT5677
 
 # Nvidia blob(s) necessary for Dragon hardware
