@@ -27,9 +27,7 @@ PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
     vendor/nvidia/dragon/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/nvidia/dragon/proprietary/lib/libkeymaster_staging.so:system/lib/libkeymaster_staging.so \
-    vendor/nvidia/dragon/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/nvidia/dragon/proprietary/lib64/libkeymaster_staging.so:system/lib64/libkeymaster_staging.so \
-    vendor/nvidia/dragon/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
     vendor/nvidia/dragon/proprietary/vendor/firmware/cros-pd/dingdong_v1.7.317-b0bb7c9.bin:root/vendor/firmware/cros-pd/dingdong_v1.7.317-b0bb7c9.bin \
     vendor/nvidia/dragon/proprietary/vendor/firmware/cros-pd/dingdong_v1.7.575-96b74f1.bin:root/vendor/firmware/cros-pd/dingdong_v1.7.575-96b74f1.bin \
     vendor/nvidia/dragon/proprietary/vendor/firmware/cros-pd/dingdong_v1.7.684-69498dd.bin:root/vendor/firmware/cros-pd/dingdong_v1.7.684-69498dd.bin \
