@@ -21,6 +21,11 @@ PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater \
     HotwordEnrollmentOKGoogleRT5677
 
+# aptX
+PRODUCT_PACKAGES += \
+    vendor/google/dragon/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
+    vendor/google/dragon/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
+
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES := \
     vendor/nvidia/dragon/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
